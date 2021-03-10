@@ -49,8 +49,8 @@ export const SocialLogo = styled(Link)`
 
     @media screen and (max-width: 400px){
         position: absolute;
-        top: 10px;
-        left: 25px;
+        top: 0;
+        left: 0;
     }
 `
 
@@ -77,12 +77,13 @@ export const FooterRights = styled.small`
     justify-content: center;
 
     @media screen and (max-width: 420px) {
-        margin: 0;
+         margin-left: auto;
+        margin-right: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 10px;
-        width: 100%;
+        width: 17em;
     }
 `
 export const FooterDev = styled.small`
