@@ -37,6 +37,7 @@ const Footer = () => {
             </FooterWrap>
             <FooterRights>DELÍCIAS DA EDI © 2021 - Todos os direitos reservados</FooterRights>
             <FooterDev>Desenvolvido com<FcLike />Israel Machado</FooterDev>
+            <br></br>
         </FooterContainer>
     )
 }
