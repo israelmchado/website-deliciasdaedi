@@ -48,7 +48,7 @@ export const SocialLogo = styled(Link)`
     }
 
     @media screen and (max-width: 400px){
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
     }
